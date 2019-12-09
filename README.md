@@ -1,5 +1,5 @@
-# laravel6-modular
-Crea sitios web modulares con Larevel 6
+# Laravel 6 Modular
+Crea sitios web modulares con Laravel 6
 
-#create module
+# crear modulo
 ``php artisan make:module moduleName``
