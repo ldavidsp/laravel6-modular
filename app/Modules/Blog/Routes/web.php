@@ -13,6 +13,7 @@
 
 Route::group(['prefix' => 'blog'], function () {
     Route::get('/', function () {
+        \Caffeinated\Modules\Facades\Module::enable('blog');
         dd('This is the Blog module index page. Build something great!');
     });
 });
